@@ -1,22 +1,6 @@
-# KiCad_Template
+# ESPnow Testboard
 
-This is a template repo for KiCAD v6 projects with 
-
-## Todo
-
-* ~add DRC, ERC as seperate WF~ 
-* ~add DRC, ERC to release WF as blocking~
-* ~add release checklist~
-* order release checklist
-* ~add workflow to automatically create new realease checklist and realease note file and reset the generic for the next release~
-* ~Rename artefacts with project name and date?~
-* Add diffrent PCB manufactures output via kibot
-* ~Update to kicad6_auto:1.3.0~
-* use version number for template
-
-## Usage
-
-setting -> action -> general -> Workflow permissions -> Read and write permissions
+Quick first shot for an ESP32-C3 based ESPnow communication PCB 
 
 ## Description. 
 
