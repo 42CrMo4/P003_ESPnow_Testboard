@@ -10,7 +10,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 9,"Diode, small symbol",D_Small,D2 D6 D7,D_Small,D_SOD-323,3, ,~,,,,,,
 10,Light emitting diode,LED,D3 D4 D5,LED,LED_0603_1608Metric,3, ,~,,,,,,
 11,"Schottky diode, small symbol",D_Schottky_Small,D1,SS14,D_SMA,1, ,~,,,,,,
-12,USB Full-Featured Type-C Receptacle connector,USB_C_Receptacle,J3,HRO_TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12_simple,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,,,,
+12,USB Full-Featured Type-C Receptacle connector,USB_C_Receptacle,J3,HRO_TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,,,,
 13,"Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x12,J1,Pins,PinSocket_2x06_P2.54mm_Vertical_SMD,1, ,~,,,,,,
 14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J2,Programming,PinHeader_1x04_P2.54mm_Vertical,1, ,~,,,,,,
 15,"Jumper, 2-pole, open",Jumper_2_Open,JP6 JP7,AHLB,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,2, ,~,,,,,,
