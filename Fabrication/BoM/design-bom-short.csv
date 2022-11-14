@@ -24,9 +24,9 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 23,"Resistor, small symbol",R_Small,R5 R6 R7 R11 R12,10K,R_0805_2012Metric,5, ,~,,,,,,
 24,"Resistor, small symbol",R_Small,R2,600k,R_0805_2012Metric,1, ,~,,,,,,
 25,"Resistor, small symbol",R_Small,R1,1M,R_0805_2012Metric,1, ,~,,,,,,
-26,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_SPST_EVPBF,1, ,~,,,,,,
-27,"Push button switch, generic, two pins",SW_Push,SW3,IO0,SW_SPST_EVPBF,1, ,~,,,,,,
-28,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SW_SPST_EVPBF,1, ,~,,,,,,
+26,"Push button switch, generic, two pins",SW_Push,SW1,Control,SW_SPST_EVPBF,1, ,~,,,,,,
+27,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_SPST_EVPBF,1, ,~,,,,,,
+28,"Push button switch, generic, two pins",SW_Push,SW3,IO0,SW_SPST_EVPBF,1, ,~,,,,,,
 29,"500mA, Adjustable Step-Up Voltage Regulator, 1.5MHz Frequency, SOT-23-5",AP3012,U2,AP3015,SOT-23-5,1, ,https://www.diodes.com/assets/Datasheets/AP3012.pdf,,,,,,
 30,"WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C",ESP32-C3-WROOM-02-N4,U3,ESP32-C3-WROOM-02-N4,MODULE_ESP32-C3-WROOM-02-H4,1, ,,Espressif Systems,In Stock,None,Package,ESP32-C3-WROOM-02-H4,https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda
 31,,"TCK127BG,LF",U1,TCK127BG,Toshiba_WCSP4G,1, ,https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG,,,,,,
