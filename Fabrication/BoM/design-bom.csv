@@ -1,15 +1,15 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,MF,AVAILABILITY,PRICE,PACKAGE,MP,PURCHASE-URL
-1,"Unpolarized capacitor, small symbol",C_Small,C3,10pF,C_0805_2012Metric,1, ,~,,,,,,
-2,"Unpolarized capacitor, small symbol",C_Small,C6 C8 C9,0.1uF,C_0805_2012Metric,3, ,~,,,,,,
-3,"Unpolarized capacitor, small symbol",C_Small,C7,1uF,C_0805_2012Metric,1, ,~,,,,,,
-4,"Unpolarized capacitor, small symbol",C_Small,C2,4.7uF,C_0805_2012Metric,1, ,~,,,,,,
-5,"Unpolarized capacitor, small symbol",C_Small,C5,10uF,C_0805_2012Metric,1, ,~,,,,,,
-6,"Unpolarized capacitor, small symbol",C_Small,C4,20uF,C_0805_2012Metric,1, ,~,,,,,,
-7,"Unpolarized capacitor, small symbol",C_Small,C10 C11,0-50pF,C_0805_2012Metric,2, ,~,,,,,,
-8,"Unpolarized capacitor, small symbol",C_Small,C1,C_Small,C_0805_2012Metric,1, ,~,,,,,,
-9,"Diode, small symbol",D_Small,D2 D6 D7,D_Small,D_SOD-323,3, ,~,,,,,,
-10,Light emitting diode,LED,D3 D4 D5,LED,LED_0603_1608Metric,3, ,~,,,,,,
-11,"Schottky diode, small symbol",D_Schottky_Small,D1,SS14,D_SMA,1, ,~,,,,,,
+1,"Unpolarized capacitor, small symbol",C_Small,C5,10pF,C_0805_2012Metric,1, ,~,,,,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C8 C10 C11,0.1uF,C_0805_2012Metric,3, ,~,,,,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C9,1uF,C_0805_2012Metric,3, ,~,,,,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C4,4.7uF,C_0805_2012Metric,1, ,~,,,,,,
+5,"Unpolarized capacitor, small symbol",C_Small,C7,10uF,C_0805_2012Metric,1, ,~,,,,,,
+6,"Unpolarized capacitor, small symbol",C_Small,C6,20uF,C_0805_2012Metric,1, ,~,,,,,,
+7,"Unpolarized capacitor, small symbol",C_Small,C12 C13,0-50pF,C_0805_2012Metric,2, ,~,,,,,,
+8,"Unpolarized capacitor, small symbol",C_Small,C3,C_Small,C_0805_2012Metric,1, ,~,,,,,,
+9,"Diode, small symbol",D_Small,D1 D3 D8 D9,D_Small,D_SOD-323,4, ,~,,,,,,
+10,Light emitting diode,LED,D4 D5 D6 D7,LED,LED_0603_1608Metric,4, ,~,,,,,,
+11,"Schottky diode, small symbol",D_Schottky_Small,D2,SS14,D_SMA,1, ,~,,,,,,
 12,USB Full-Featured Type-C Receptacle connector,USB_C_Receptacle,J3,HRO_TYPE-C-31-M-12,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,,,,
 13,"Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x12,J1,Pins,PinSocket_2x06_P2.54mm_Vertical_SMD,1, ,~,,,,,,
 14,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J2,Programming,PinHeader_1x04_P2.54mm_Vertical,1, ,~,,,,,,
@@ -18,19 +18,22 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 17,"Jumper, 2-pole, open",Jumper_2_Open,JP1,Switch_jump,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,1, ,~,,,,,,
 18,"Jumper, 2-pole, open",Jumper_2_Open,JP4 JP5,TOG,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,2, ,~,,,,,,
 19,"Inductor, small symbol",L_Small,L1,10uH,L_TracoPower_TCK-047_5.2x5.8mm,1, ,~,,,,,,
-20,"Resistor, small symbol",R_Small,R8 R9,330,R_0805_2012Metric,2, ,~,,,,,,
-21,"Resistor, small symbol",R_Small,R10,470,R_0805_2012Metric,1, ,~,,,,,,
-22,"Resistor, small symbol",R_Small,R3 R4,5.1k,R_0805_2012Metric,2, ,~,,,,,,
-23,"Resistor, small symbol",R_Small,R5 R6 R7 R11 R12,10K,R_0805_2012Metric,5, ,~,,,,,,
-24,"Resistor, small symbol",R_Small,R2,600k,R_0805_2012Metric,1, ,~,,,,,,
-25,"Resistor, small symbol",R_Small,R1,1M,R_0805_2012Metric,1, ,~,,,,,,
-26,"Push button switch, generic, two pins",SW_Push,SW1,Control,SW_SPST_EVPBF,1, ,~,,,,,,
-27,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_SPST_EVPBF,1, ,~,,,,,,
-28,"Push button switch, generic, two pins",SW_Push,SW3,IO0,SW_SPST_EVPBF,1, ,~,,,,,,
-29,"500mA, Adjustable Step-Up Voltage Regulator, 1.5MHz Frequency, SOT-23-5",AP3012,U2,AP3015,SOT-23-5,1, ,https://www.diodes.com/assets/Datasheets/AP3012.pdf,,,,,,
-30,"WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C",ESP32-C3-WROOM-02-N4,U3,ESP32-C3-WROOM-02-N4,MODULE_ESP32-C3-WROOM-02-H4,1, ,,Espressif Systems,In Stock,None,Package,ESP32-C3-WROOM-02-H4,https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda
-31,,"TCK127BG,LF",U1,TCK127BG,Toshiba_WCSP4G,1, ,https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG,,,,,,
-32,,TTP223,U4 U5,TTP223,SOT-23-6_Handsoldering,2, ,,,,,,,
+20,"P-MOSFET transistor, gate/source/drain",Q_PMOS_GSD,Q1,Q_PMOS_GSD,SOT-23,1, ,~,,,,,,
+21,"Resistor, small symbol",R_Small,R9 R10 R11,330,R_0805_2012Metric,3, ,~,,,,,,
+22,"Resistor, small symbol",R_Small,R12,470,R_0805_2012Metric,1, ,~,,,,,,
+23,"Resistor, small symbol",R_Small,R4 R5,5.1k,R_0805_2012Metric,2, ,~,,,,,,
+24,"Resistor, small symbol",R_Small,R6 R7 R8 R13 R14,10K,R_0805_2012Metric,5, ,~,,,,,,
+25,"Resistor, small symbol",R_Small,R1,100k,R_0805_2012Metric,1, ,~,,,,,,
+26,"Resistor, small symbol",R_Small,R3,600k,R_0805_2012Metric,1, ,~,,,,,,
+27,"Resistor, small symbol",R_Small,R2,1M,R_0805_2012Metric,1, ,~,,,,,,
+28,"Push button switch, generic, two pins",SW_Push,SW1,Control,SW_SPST_EVPBF,1, ,~,,,,,,
+29,"Push button switch, generic, two pins",SW_Push,SW2,EN,SW_SPST_EVPBF,1, ,~,,,,,,
+30,"Push button switch, generic, two pins",SW_Push,SW3,IO0,SW_SPST_EVPBF,1, ,~,,,,,,
+31,"500mA, Adjustable Step-Up Voltage Regulator, 1.5MHz Frequency, SOT-23-5",AP3012,U3,AP3015,SOT-23-5,1, ,https://www.diodes.com/assets/Datasheets/AP3012.pdf,,,,,,
+32,"WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C",ESP32-C3-WROOM-02-N4,U4,ESP32-C3-WROOM-02-N4,MODULE_ESP32-C3-WROOM-02-H4,1, ,,Espressif Systems,In Stock,None,Package,ESP32-C3-WROOM-02-H4,https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda
+33,"250mA Low Quiscent Current LDO, 3.3V output, SOT-23",MCP1700-3302E_SOT23,U1,MCP1700-3302E_SOT23,SOT-23,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf,,,,,,
+34,,"TCK127BG,LF",U2,TCK127BG,Toshiba_WCSP4G,1, ,https://toshiba.semicon-storage.com/info/TCK127BG_datasheet_en_20211028.pdf?did=140423&prodName=TCK127BG,,,,,,
+35,,TTP223,U5 U6,TTP223,SOT-23-6_Handsoldering,2, ,,,,,,,
 
 
 
@@ -43,8 +46,8 @@ Revision:,<<version>>
 Date:,<<date>>
 KiCad Version:,6.0.7+dfsg-1~bpo11+1
 Statistics:
-Component Groups:,32
-Component Count:,48
-Fitted Components:,48
+Component Groups:,35
+Component Count:,56
+Fitted Components:,56
 Number of PCBs:,1
-Total Components:,48
+Total Components:,56
