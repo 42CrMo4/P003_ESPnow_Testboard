@@ -4,12 +4,3 @@
 
 first RC release
 
-New
-* na
-
-Changes
-* na
-
-Breaking Changes
-* na
-
