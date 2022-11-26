@@ -10,13 +10,12 @@ Check before releasing and/or submitting to FAB
 - [x] Component Labels
 - [x] Labels not over VIA or Holes etc. 
 - [x] Label Important (All) Pins — Both Sides
-- [ ] Revision number of Checklist will match the Git tag
+- [x] Revision number of Checklist will match the Git tag
 - [x] Double check the final files
 - [x] Fill Changelog (release_note.md)
 - [x] projekt.properties filled correctly
-- [ ] Weblink / version / Date / name present SCH
-- [ ] Weblink / version / Date / name present PCB
+- [x] Weblink / version / Date / name present SCH
+- [x] Weblink / version / Date / name present PCB
 - [x] Power Trace correct width
 - [x] decoupling capacitors present
 - [x] component orientation correct (MCU, Diod, etc)
-
