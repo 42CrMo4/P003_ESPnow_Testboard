@@ -3165,7 +3165,7 @@
   (gr_text "GND" (at 153.439762 89.6) (layer "B.SilkS") (tstamp 53c9efaf-750a-49b0-93c7-48eb7aadb511)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
-  (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 141.2 71.3) (layer "B.SilkS") (tstamp 72f86fac-1de9-4853-b551-bbe9529da2a3)
+  (gr_text "<<project_name>>\n<<ID>>\n<<version>>\n<<date>>\n<<hash>>\n<<website_link>>" (at 141.2 69.9) (layer "B.SilkS") (tstamp 72f86fac-1de9-4853-b551-bbe9529da2a3)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "RX" (at 148.4 89.6) (layer "B.SilkS") (tstamp a8a2f2f2-778d-48a0-9088-878cb8eef734)
