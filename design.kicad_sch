@@ -4718,7 +4718,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8fa72335-445b-41aa-9b88-7ae31dad4a5e)
     (property "Reference" "U1" (id 0) (at 48.895 37.465 0))
-    (property "Value" "MCP1700-3302E_SOT23" (id 1) (at 48.895 40.005 0))
+    (property "Value" "MCP1700-3602E_SOT23" (id 1) (at 48.895 40.005 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 48.895 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5843,7 +5843,7 @@
       (reference "TP6") (unit 1) (value "touch_point_1") (footprint "")
     )
     (path "/8fa72335-445b-41aa-9b88-7ae31dad4a5e"
-      (reference "U1") (unit 1) (value "MCP1700-3302E_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "U1") (unit 1) (value "MCP1700-3602E_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/25ada721-670a-4020-ae0b-77410c4e375a"
       (reference "U2") (unit 1) (value "TCK127BG") (footprint "Package_BGA_custom:Toshiba_WCSP4G")
