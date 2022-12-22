@@ -2,14 +2,9 @@
 | ------------- | ------------- |
 |![PCB Top design](https://github.com/<<repo_name>>/releases/download/<<tag>>/<<ID>>_<<project_name>>_<<version>>_PCBdraw_Top.png)|![PCB Back design](https://github.com/<<repo_name>>/releases/download/<<tag>>/<<ID>>_<<project_name>>_<<version>>_PCBdraw_Back.png)|
 
-first RC release
+Bug Fix Release
 
-New
-* na
-
-Changes
-* na
-
-Breaking Changes
-* na
+Bug Fix 
+* Use IO9 Pin instead of IO0 for programming (#11)
+* Use a 3.6V regulator to compensate the diode voltage drop (#10)
 
