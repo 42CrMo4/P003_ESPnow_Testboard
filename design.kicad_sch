@@ -3657,7 +3657,7 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (id 2) (at 163.195 59.055 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3012.pdf" (id 3) (at 162.56 52.705 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP3015_A.pdf" (id 3) (at 162.56 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7374600e-6b12-40c9-bddb-81c2c0dd958f))
